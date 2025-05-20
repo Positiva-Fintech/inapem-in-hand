@@ -9,6 +9,7 @@ interface TimelineItem {
   title: string;
   date: string;
   content: string;
+  content2: string;
   category: string;
   // icon: React.ElementType;
   icon: string;
@@ -158,7 +159,7 @@ export default function RadialOrbitalTimeline({
       ref={containerRef}
       onClick={handleContainerClick}
     >
-      <img src="/images/inapem-favicon.png" alt="inapem" className="absolute top-17 left-89 w-15 h-15" />
+      {/* <img src="/images/inapem-favicon.png" alt="inapem" className="absolute top-17 left-89 w-15 h-15" /> */}
       <div className="relative w-full max-w-4xl h-full flex items-center justify-center">
         <div
           className="absolute inset-0 w-full h-full flex items-center justify-center z-20"
@@ -273,27 +274,30 @@ export default function RadialOrbitalTimeline({
                           )}`}
                         >
                           {item.status === "completed"
-                            ? "COMPLETE"
+                            ? "COMPLETO"
                             : item.status === "in-progress"
-                            ? "IN PROGRESS"
-                            : "PENDING"}
+                            ? "EM ANDAMENTO"
+                            : "PENDENTE"}
                         </Badge>
                         <span className="text-xs font-mono text-white/50">
                           {item.date}
                         </span>
                       </div>
-                      <CardTitle className="text-sm mt-2">
+                      <CardTitle className="text-sm text-white/80 font-semibold">
                         {item.title}
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="text-xs text-white/80">
-                      <p>{item.content}</p>
+                      <div>
+                        <p className="text-left mb-2">{item.content}</p>
+                        <p className="text-left">{item.content2}</p>
+                      </div>
 
                       <div className="mt-4 pt-3 border-t border-white/10">
                         <div className="flex justify-between items-center text-xs mb-1">
                           <span className="flex items-center">
                             <Zap size={10} className="mr-1" />
-                            Energy Level
+                            Estado do projeto
                           </span>
                           <span className="font-mono">{item.energy}%</span>
                         </div>
@@ -310,7 +314,7 @@ export default function RadialOrbitalTimeline({
                           <div className="flex items-center mb-2">
                             <Link size={10} className="text-white/70 mr-1" />
                             <h4 className="text-xs uppercase tracking-wider font-medium text-white/70">
-                              Connected Nodes
+                              Conectados
                             </h4>
                           </div>
                           <div className="flex flex-wrap gap-1">

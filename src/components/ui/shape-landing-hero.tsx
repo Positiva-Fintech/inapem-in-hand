@@ -1,8 +1,8 @@
 "use client";
 
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { Circle } from "lucide-react";
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+// import { Circle } from "lucide-react";
+// import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
 
@@ -155,15 +155,7 @@ function ElegantShape({
     );
 }
 
-function HeroGeometric({
-    badge = "",
-    title1 = "",
-    title2 = "",
-}: {
-    badge?: string;
-    title1?: string;
-    title2?: string;
-}) {
+function HeroGeometric() {
     const fadeUpVariants = {
         hidden: { opacity: 0, y: 30 },
         visible: (i: number) => ({

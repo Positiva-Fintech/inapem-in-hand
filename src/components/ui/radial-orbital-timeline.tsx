@@ -3,60 +3,60 @@ import { ArrowRight, Link, Zap } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Logos3 } from "@/components/blocks/logos3";
+// import { Logos3 } from "@/components/blocks/logos3";
 
-const demoData = {
-  logos: [
-    {
-      id: "logo-1",
-      description: "Astro",
-      image: "/images/inapem-logo.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-2",
-      description: "Figma",
-      image: "/images/nosso-saber.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-3",
-      description: "Next.js",
-      image: "/images/rede-inapem.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-4",
-      description: "React",
-      image: "/images/feito-angola.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-5",
-      description: "shadcn/ui",
-      image: "/images/rede-inapem.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-6",
-      description: "Supabase",
-      image: "/images/rede-inapem.png",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-7",
-      description: "Tailwind CSS",
-      image: "/images/rede-inapem.png",
-      className: "h-4 w-auto",
-    },
-    {
-      id: "logo-8",
-      description: "Vercel",
-      image: "/images/rede-inapem.png",
-      className: "h-7 w-auto",
-    },
-  ],
-};
+// const demoData = {
+//   logos: [
+//     {
+//       id: "logo-1",
+//       description: "Astro",
+//       image: "/images/inapem-logo.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-2",
+//       description: "Figma",
+//       image: "/images/nosso-saber.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-3",
+//       description: "Next.js",
+//       image: "/images/rede-inapem.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-4",
+//       description: "React",
+//       image: "/images/feito-angola.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-5",
+//       description: "shadcn/ui",
+//       image: "/images/rede-inapem.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-6",
+//       description: "Supabase",
+//       image: "/images/rede-inapem.png",
+//       className: "h-7 w-auto",
+//     },
+//     {
+//       id: "logo-7",
+//       description: "Tailwind CSS",
+//       image: "/images/rede-inapem.png",
+//       className: "h-4 w-auto",
+//     },
+//     {
+//       id: "logo-8",
+//       description: "Vercel",
+//       image: "/images/rede-inapem.png",
+//       className: "h-7 w-auto",
+//     },
+//   ],
+// };
 
 interface TimelineItem {
   id: number;

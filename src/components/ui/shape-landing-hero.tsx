@@ -41,6 +41,7 @@ const timelineData = [
   {
     id: 3,
     title: "Turismo",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Jan 2025",
     content: "Este projeto tem o objectivo de transformar o turismo em um dos principais motores de crescimento econômico em Angola. Através do apoio às empresas locais, melhoria das infraestruturas e promoção da sustentabilidade, visa-se criar um sector turístico vibrante e competitivo, que gere emprego, renda e atraia investimentos, ao mesmo tempo em que valoriza o patrimônio e cultura angolana.",
     content2: "Mais informações",
@@ -54,6 +55,7 @@ const timelineData = [
   {
     id: 4,
     title: "ECO MPME",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Feb 2024",
     content:
       "O Projeto de Apoio às MPME voltadas à Sustentabilidade visa impulsionar o desenvolvimento de micro, pequenas e médias empresas (MPMEs) em Angola, com foco na implementação de práticas empresariais sustentáveis. O projeto é uma iniciativa estratégica para promover o crescimento responsável das MPMEs, alinhando-as com os princípios de sustentabilidade econômica, ambiental e social, visando não apenas a sua competitividade, mas também a contribuição para o desenvolvimento sustentável do país.",
@@ -67,6 +69,7 @@ const timelineData = [
   {
     id: 5,
     title: "PROAPI",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Mar 2025",
     content: "É um programa desenvolvindo pelo INAPEM, com visão aos objectivos do PRODESI, que foi aprovado pelo Decreto Presidencial n.º 169/18 de 20 de Julho, este programa é vocacinado para o apoio à industrialização da produção agropecuária e extrativista de agricultores familiares, Associações, Cooperativas e MPMEs Agropecuárias a nível nacional.",
     category: "Development",
@@ -79,6 +82,7 @@ const timelineData = [
   {
     id: 6,
     title: "Conectar",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Apr 2025",
     content: "O Projeto de Atração de Investimentos para Startups é uma iniciativa estratégica destinada a impulsionar o ecossistema de inovação e empreendedorismo em Angola. O objetivo é criar um ambiente propício para o desenvolvimento de novas empresas, com foco na atração de investidores nacionais e internacionais para financiar startups inovadoras e de alto potencial de crescimento. Através deste projeto, buscamos fortalecer o papel das startups como motores de diversificação econômica, inovação e criação de emprego no país.",
     category: "Testing",
@@ -91,6 +95,7 @@ const timelineData = [
   {
     id: 7,
     title: "Promove",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "May 2025",
     content: "O Projeto de Apoio, Gestão e Formalização de Cooperativas tem como objetivo principal fortalecer as cooperativas em Angola, promovendo sua formalização e capacitação para garantir sua sustentabilidade, competitividade e impacto positivo nas comunidades. Este projeto é uma iniciativa do Instituto Nacional de Apoio às Micro, Pequenas e Médias Empresas (INAPEM), com foco na melhoria da gestão e na integração das cooperativas no sistema econômico formal.",
     category: "Release",
@@ -103,6 +108,7 @@ const timelineData = [
   {
     id: 8,
     title: "CiSu",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "May 2025",
     content: "O CISU - Centro de Incubação de Startups Universitárias é uma iniciativa inovadora criada pelo INAPEM (Instituto Nacional de Apoio às Pequenas e Médias Empresas) em parceria com as universidades de Angola. Este centro visa apoiar e fomentar o empreendedorismo jovem, estimulando a criação de startups inovadoras e contribuindo para o desenvolvimento econômico e social do país. O CISU é uma plataforma estratégica para a transformação de ideias acadêmicas em negócios sustentáveis, com foco na geração de empregos e na diversificação da economia nacional.",
     category: "Release",
@@ -115,6 +121,7 @@ const timelineData = [
   {
     id: 9,
     title: "Gael",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "May 2025",
     content: "A missão do GAEL é fomentar o empreendedorismo local, oferecendo suporte técnico, formaliação, consultoria, assistência Técnica, capacitação e acesso a informações e recursos financeiros disponíveis para o formento do empreendedorismo e boas práticas de Gestão de pequenos negócios.",
     category: "Release",
@@ -127,6 +134,7 @@ const timelineData = [
   {
     id: 10,
     title: "Planear",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "May 2025",
     content: "O Projeto de Aprendizagem Rural é uma iniciativa voltada para o desenvolvimento de competências e capacitação de jovens, agricultores e comunidades rurais em Angola, com o objetivo de promover a educação e a formação técnica que melhorem as práticas agrícolas, fomentem o empreendedorismo rural e aumentem a produtividade do seCtor agrícola.",
     category: "Release",

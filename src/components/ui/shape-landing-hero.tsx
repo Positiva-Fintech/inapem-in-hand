@@ -10,27 +10,30 @@ const timelineData = [
   {
     id: 1,
     title: "ReCria",
+    title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Jan 2025",
     content:
-      "O principal objetivo do projeto RECRIA é apoiar os empreendedores criativos ao longo do seu ciclo de vida, oferecendo suporte técnico, financeiro e formativo. Busca-se, assim, criar um ecossistema favorável para que as empresas criativas possam crescer, prosperar e competir no mercado local e internacional.",
+      "O RECRIA é um projecto inovador desenvolvido pelo INAPEM, com o objetivo de apoiar e promover o Empreendedorismo Criativo em Angola. A iniciativa visa fomentar a criação, o desenvolvimento e a sustentabilidade de empresas que operam nos sectores da arte, design, moda, música, audiovisual, tecnologia criativa e outras áreas relacionadas à economia criativa.",
     content2:
-      "O projeto ReCria é uma iniciativa do INAPEM, Instituto Nacional de Apoio às Pequenas e Médias Empresas, que visa apoiar o desenvolvimento e a promoção do empreendedorismo criativo em Angola. O projeto tem como objetivo fomentar a inovação, a criatividade e a competitividade no setor das pequenas e médias empresas (PMEs) criativas, contribuindo para o crescimento econômico e social do país.",
+      "O principal objetivo do projeto RECRIA é apoiar os empreendedores criativos ao longo do seu ciclo de vida, oferecendo suporte técnico, financeiro e formativo. Busca-se, assim, criar um ecossistema favorável para que as empresas criativas possam crescer, prosperar e competir no mercado local e internacional.",
     category: "Planning",
     icon: "/images/recria.jpg",
-    relatedIds: [2],
+    relatedIds: [2, 3],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 15,
   },
   {
     id: 2,
     title: "Replica",
+    title_slong: "Replicação de Negócios Funcionais",
     date: "Jan 2025",
     content:
       "O Projecto REPLICA é uma iniciativa estratégica do INAPEM voltada à promoção do empreendedorismo emergente em Angola, por meio da replicação de negócios funcionais, organizados em modelos acessíveis de microfranquias, a proposta visa capacitar e inserir aspirantes a empreendedores em actividades econômicas já testadas e operacionais, fornecendo todo o suporte necessário para iniciar a operação com um risco reduzido.",
     content2: "Mais informações",
     category: "Planning",
+    link: "https://cooperativas.gov.ao/",
     // icon: Calendar,
-    icon: "/images/replica.jpg",
+    icon: "/images/replica.png",
     relatedIds: [2, 3, 4],
     status: "completed" as const,
     energy: 10,
@@ -216,7 +219,7 @@ function HeroGeometric() {
   };
 
   return (
-    <div className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-[#030303]">
+    <div className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-[#2e2d2d]">
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/[0.05] via-transparent to-rose-500/[0.05] blur-3xl" />
 
       <div className="absolute inset-0 overflow-hidden">
@@ -226,7 +229,7 @@ function HeroGeometric() {
           height={140}
           rotate={12}
           gradient="from-indigo-500/[0.15]"
-          className="left-[-10%] md:left-[-5%] top-[15%] md:top-[20%]"
+          className="left-[-10%] md:left-[-5%] top-[-5%] md:top-[20%]"
         />
 
         <ElegantShape
@@ -235,7 +238,7 @@ function HeroGeometric() {
           height={120}
           rotate={-15}
           gradient="from-rose-500/[0.15]"
-          className="right-[-5%] md:right-[0%] top-[70%] md:top-[75%]"
+          className="right-[-20%] md:right-[0%] top-[85%] md:top-[75%]"
         />
 
         <ElegantShape
@@ -244,7 +247,7 @@ function HeroGeometric() {
           height={80}
           rotate={-8}
           gradient="from-violet-500/[0.15]"
-          className="left-[5%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
+          className="left-[-15%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
         />
 
         <ElegantShape
@@ -253,7 +256,7 @@ function HeroGeometric() {
           height={60}
           rotate={20}
           gradient="from-amber-500/[0.15]"
-          className="right-[15%] md:right-[20%] top-[10%] md:top-[15%]"
+          className="right-[5%] md:right-[20%] top-[5%] md:top-[15%]"
         />
 
         <ElegantShape
@@ -262,49 +265,14 @@ function HeroGeometric() {
           height={40}
           rotate={-25}
           gradient="from-cyan-500/[0.15]"
-          className="left-[20%] md:left-[25%] top-[5%] md:top-[10%]"
+          className="left-[10%] md:left-[25%] top-[5%] md:top-[10%]"
         />
       </div>
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          {/* <motion.div
-                        custom={0}
-                        variants={fadeUpVariants}
-                        initial="hidden"
-                        animate="hidden"
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] border border-white/[0.08] mb-8 md:mb-12"
-                    >
-                        <Circle className="h-2 w-2 fill-rose-500/80" />
-                        <span className="text-sm text-white/60 tracking-wide">
-                            {badge}
-                        </span>
-                    </motion.div> */}
-
-          <motion.div
-            custom={1}
-            variants={fadeUpVariants}
-            initial="hidden"
-            animate="visible"
-          >
-            {/* <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tight">
-                            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/80">
-                                {title1}
-                            </span>
-                            <br />
-                            <span
-                                className={cn(
-                                    "bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300 "
-                                )}
-                            >
-                                <img src="/images/inapem-favicon.png" alt="inapem" className="w-15 h-15" />
-                                {title2}
-                            </span>
-                        </h1> */}
-
-            {/* RadialOrbitalTimeline Component */}
-            <RadialOrbitalTimeline timelineData={timelineData} />
-          </motion.div>
+        <div className=" mx-auto text-center">
+       
+          <RadialOrbitalTimeline timelineData={timelineData} />
 
           <motion.div
             custom={2}

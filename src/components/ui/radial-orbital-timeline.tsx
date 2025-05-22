@@ -12,6 +12,7 @@ interface TimelineItem {
   date: string;
   content: string;
   content2: string;
+  link: string;
   category: string;
   icon: string;
   relatedIds: number[];
@@ -298,7 +299,7 @@ export default function RadialOrbitalTimeline({
                           {item.date}
                         </span>
                       </div>
-                      <CardTitle className="text-sm text-white/80 font-semibold mt-2">
+                      <CardTitle className="text-sm text-center text-white/80 font-semibold mt-2">
                         {item.title_slong}
                       </CardTitle>
                     </CardHeader>
@@ -307,9 +308,12 @@ export default function RadialOrbitalTimeline({
                         <p className="text-left mb-2">{item.content}</p>
                         <p className="text-left">{item.content2}</p>
                         <p className="text-left text-xm text-orange-400 mt-2">
-                          <a href="#" className="underline" target="_blank">Mais Informações</a>
+                          <a href={item.link} className="underline" target="_blank">
+                            Mais Informações
+                          </a>
                         </p>
                       </div>
+
 
                       <div className="mt-4 pt-3 border-t border-white/10">
                         <div className="flex justify-between items-center text-xs mb-1">

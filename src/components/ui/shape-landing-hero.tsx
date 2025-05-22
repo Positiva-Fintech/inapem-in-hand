@@ -13,7 +13,7 @@ const timelineData = [
     title_slong: "Impulsionando a Economia Criativa em Angola.",
     date: "Jan 2025",
     content:
-      "O RECRIA é um projecto inovador desenvolvido pelo INAPEM, com o objetivo de apoiar e promover o Empreendedorismo Criativo em Angola. A iniciativa visa fomentar a criação, o desenvolvimento e a sustentabilidade de empresas que operam nos sectores da arte, design, moda, música, audiovisual, tecnologia criativa e outras áreas relacionadas à economia criativa.",
+      "O RECRIA é um projecto inovador desenvolvido pelo INAPEM, com o objetivo de apoiar e promover o Empreendedorismo Criativo em Angola. A iniciativa visa fomentar a criação, o desenvolvimento e a sustentabilidade de empresas que operam nos sectores da arte, design, moda, música, audiovisual, tecnologia criativa e outras áreas relacionadas à economia criativa. O RECRIA é um projecto inovador desenvolvido pelo INAPEM, com o objetivo de apoiar e promover o Empreendedorismo Criativo em Angola. A iniciativa visa fomentar a criação, o desenvolvimento e a sustentabilidade de empresas que operam nos sectores da arte, design, moda, música, audiovisual, tecnologia criativa e outras áreas relacionadas à economia criativa. O RECRIA é um projecto inovador desenvolvido pelo INAPEM, com o objetivo de apoiar e promover o Empreendedorismo Criativo em Angola. A iniciativa visa fomentar a criação, o desenvolvimento e a sustentabilidade de empresas que operam nos sectores da arte, design, moda, música, audiovisual, tecnologia criativa e outras áreas relacionadas à economia criativa.",
     content2:
       "O principal objetivo do projeto RECRIA é apoiar os empreendedores criativos ao longo do seu ciclo de vida, oferecendo suporte técnico, financeiro e formativo. Busca-se, assim, criar um ecossistema favorável para que as empresas criativas possam crescer, prosperar e competir no mercado local e internacional.",
     category: "Planning",
@@ -213,18 +213,18 @@ function ElegantShape({
 }
 
 function HeroGeometric() {
-  const fadeUpVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1,
-        delay: 0.5 + i * 0.2,
-        ease: [0.25, 0.4, 0.25, 1],
-      },
-    }),
-  };
+  // const fadeUpVariants = {
+  //   hidden: { opacity: 0, y: 30 },
+  //   visible: (i: number) => ({
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       duration: 5,
+  //       delay: 0.5 + i * 0.2,
+  //       ease: [0.25, 0.4, 0.25, 1],
+  //     },
+  //   }),
+  // };
 
   return (
     //  #2e2d2d   403b3b
@@ -278,20 +278,19 @@ function HeroGeometric() {
         />
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 md:px-6">
-        <div className=" mx-auto text-center">
+      <div className="relative z-10 container mx-auto">
        
           <RadialOrbitalTimeline timelineData={timelineData} />
 
-          <motion.div
+          {/* <motion.div
             custom={2}
             variants={fadeUpVariants}
             initial="hidden"
             animate="visible"
           >
-            <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4"></p>
-          </motion.div>
-        </div>
+            <p className="text-base text-center sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
+            </p>
+          </motion.div> */}
       </div>
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#030303] via-transparent to-[#030303]/80 pointer-events-none" />

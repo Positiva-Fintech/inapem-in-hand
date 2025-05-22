@@ -115,7 +115,7 @@ export default function RadialOrbitalTimeline({
   const calculateNodePosition = (index: number, total: number) => {
     const angle = ((index / total) * 360 + rotationAngle) % 360;
     // Responsive radius based on screen size
-    const radius = isMobile ? 160 : 375;
+    const radius = isMobile ? 200 : 375;
     const radian = (angle * Math.PI) / 180;
 
     const x = radius * Math.cos(radian) + centerOffset.x;
@@ -155,19 +155,17 @@ export default function RadialOrbitalTimeline({
   };
 
   // Calculate sizes based on screen
-  const centerSize = isMobile ? "w-30 h-30" : "w-80 h-80";
-  const orbitSize = isMobile ? "w-82 h-82" : "w-181 h-181";
-  const globeSize = isMobile ? "w-93 h-93" : "w-full max-w-[830px] h-auto";
-  const nodeSize = isMobile ? "w-14 h-14" : "w-30 h-30";
-  const nodeIconSize = isMobile ? "w-17 h-17" : "w-26 h-26";
-  const expandedNodeScale = isMobile ? "scale-150 sm:scale-150" : "scale-150 sm:scale-150";
-  const cardWidth = isMobile ? "w-70 max-w-[90vw]" : "w-80";
-  const cardTop = isMobile ? "top-20" : "top-40";
+  const centerSize = isMobile ? "w-60 h-60" : "w-80 h-80";
+  const orbitSize = isMobile ? "w-121 h-121" : "w-181 h-181";
+  const nodeSize = isMobile ? "w-8 h-8" : "w-10 h-10";
+  const nodeIconSize = isMobile ? "w-6 h-6" : "w-8 h-8";
+  const expandedNodeScale = isMobile ? "scale-110" : "scale-150";
+  const cardWidth = isMobile ? "w-72 max-w-[90vw]" : "w-80";
+  const cardTop = isMobile ? "top-12" : "top-16";
 
   return (
     <div
-      // className="main h-screen w-full my-auto flex flex-col items-center justify-center bg-transparent overflow-hidden"
-      className="main min-h-screen md:h-screen flex flex-col items-center justify-center bg-transparent overflow-x-hidden pb-20 md:pb-0"
+      className="main h-screen w-full flex flex-col items-center justify-center bg-transparent overflow-hidden"
       ref={containerRef}
       onClick={handleContainerClick}
     >
@@ -187,7 +185,7 @@ export default function RadialOrbitalTimeline({
               className={`absolute ${centerSize} rounded-full border border-white/10 animate-ping opacity-50`}
               style={{ animationDelay: "0.5s" }}
             ></div>
-            <div className={`${isMobile ? "w-29 h-29" : "w-79 h-79"} rounded-full bg-white/80 backdrop-blur-md overflow-hidden flex items-center justify-center`}>
+            <div className={`${isMobile ? "w-59 h-59" : "w-79 h-79"} rounded-full bg-white/80 backdrop-blur-md overflow-hidden flex items-center justify-center`}>
               <img src="/images/inapem-logo-fn.png" alt="inapem" className="w-full h-full object-contain" />
             </div>
           </div>
@@ -242,7 +240,7 @@ export default function RadialOrbitalTimeline({
                       ? "bg-white text-black"
                       : isRelated
                       ? "bg-white text-black"
-                      : "bg-white text-white"
+                      : "bg-black text-white"
                   }
                   border-2 
                   ${
@@ -264,7 +262,7 @@ export default function RadialOrbitalTimeline({
                 {/* Node title */}
                 <div
                   className={`
-                  absolute ${isMobile ? "top-14" : "top-30"} left-1/2 -translate-x-1/2 whitespace-nowrap
+                  absolute ${isMobile ? "top-10" : "top-12"} left-1/2 -translate-x-1/2 whitespace-nowrap
                   text-xs font-semibold tracking-wider
                   transition-all duration-300
                   ${isExpanded ? "text-white scale-125" : "text-white/70"}
@@ -281,7 +279,7 @@ export default function RadialOrbitalTimeline({
                       overflow-visible z-50`}
                   >
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-px h-3 bg-white/50"></div>
-                    <CardHeader className={`p-5 pb-1`}>
+                    <CardHeader className={`p-${isMobile ? '3' : '5'} pb-1`}>
                       <div className="flex justify-between items-center flex-wrap gap-2">
                         <Badge
                           className={`px-2 text-xs ${getStatusStyles(
@@ -302,7 +300,7 @@ export default function RadialOrbitalTimeline({
                         {item.title_slong}
                       </CardTitle>
                     </CardHeader>
-                    <CardContent className={`p-5 pt-1 text-xs text-white/80`}>
+                    <CardContent className={`p-${isMobile ? '3' : '5'} pt-1 text-xs text-white/80`}>
                       <div>
                         <p className="text-left mb-2">{item.content}</p>
                         <p className="text-left">{item.content2}</p>
@@ -369,8 +367,7 @@ export default function RadialOrbitalTimeline({
             );
           })}
         </div>
-        <div className={`absolute z-1 ${globeSize} aspect-circle animate-[spin_60s_linear_infinite] bg-transparent opacity-10 pointer-events-none`}>
-          {/* ${isMobile ? "w-29 h-29" : "w-79 h-79"}  w-full max-w-[830px] h-auto */}
+        <div className="absolute z-1 w-full max-w-[830px] h-auto aspect-square animate-[spin_60s_linear_infinite] bg-transparent opacity-10 pointer-events-none">
           <img
             src="/images/globe1.png"
             alt="globe background"

@@ -9,7 +9,7 @@ import RadialOrbitalTimeline from "@/components/ui/radial-orbital-timeline";
 const timelineData = [
   {
     id: 1,
-    title: "ReCria",
+    title: "Empreender",
     title_slong: "Impulsionando a Economia Criativa em Angola",
     date: "Jan 2025",
     content:
@@ -25,7 +25,7 @@ const timelineData = [
   },
   {
     id: 2,
-    title: "Replica",
+    title: "Franquias",
     title_slong: "Replicação de Negócios Funcionais em Angola",
     date: "Jan 2025",
     content:
@@ -54,7 +54,7 @@ const timelineData = [
   },
   {
     id: 4,
-    title: "ECO MPME",
+    title: "Sustentabilidade",
     title_slong: "Negócios sustentáveis em Angola",
     date: "Feb 2025",
     content:
@@ -69,7 +69,7 @@ const timelineData = [
   },
   {
     id: 5,
-    title: "ProAPI",
+    title: "AgroPecuária",
     title_slong: "Programa de Apoio as Pequenas Indústrias em Angola",
     date: "Feb 2025",
     content: "É um programa desenvolvindo pelo INAPEM, com visão aos objectivos do PRODESI, que foi aprovado pelo Decreto Presidencial n.º 169/18 de 20 de Julho, este programa é vocacinado para o apoio à industrialização da produção agropecuária e extrativista de agricultores familiares, Associações, Cooperativas e MPMEs Agropecuárias a nível nacional.",
@@ -83,7 +83,7 @@ const timelineData = [
   },
   {
     id: 6,
-    title: "Conectar",
+    title: "Investimento",
     title_slong: "Investir em startups em Angola.",
     date: "Feb 2025",
     content: "O Projeto de Atração de Investimentos para Startups é uma iniciativa estratégica destinada a impulsionar o ecossistema de inovação e empreendedorismo em Angola. O objetivo é criar um ambiente propício para o desenvolvimento de novas empresas, com foco na atração de investidores nacionais e internacionais para financiar startups inovadoras e de alto potencial de crescimento. Através deste projeto, buscamos fortalecer o papel das startups como motores de diversificação econômica, inovação e criação de emprego no país.",
@@ -97,7 +97,7 @@ const timelineData = [
   },
   {
     id: 7,
-    title: "Promove",
+    title: "Modernização",
     title_slong: "Projecto de Modernização da Gestão das Cooperativas em Angola.",
     date: "Feb 2025",
     content: "O Projeto de Apoio, Gestão e Formalização de Cooperativas tem como objetivo principal fortalecer as cooperativas em Angola, promovendo sua formalização e capacitação para garantir sua sustentabilidade, competitividade e impacto positivo nas comunidades. Este projeto é uma iniciativa do Instituto Nacional de Apoio às Micro, Pequenas e Médias Empresas (INAPEM), com foco na melhoria da gestão e na integração das cooperativas no sistema econômico formal.",
@@ -111,7 +111,7 @@ const timelineData = [
   },
   {
     id: 8,
-    title: "CiSu",
+    title: "Universidades",
     title_slong: "Aprendizado, Criação e Inovação em Angola.",
     date: "Feb 2025",
     content: "O CISU - Centro de Incubação de Startups Universitárias é uma iniciativa inovadora criada pelo INAPEM (Instituto Nacional de Apoio às Pequenas e Médias Empresas) em parceria com as universidades de Angola. Este centro visa apoiar e fomentar o empreendedorismo jovem, estimulando a criação de startups inovadoras e contribuindo para o desenvolvimento econômico e social do país. O CISU é uma plataforma estratégica para a transformação de ideias acadêmicas em negócios sustentáveis, com foco na geração de empregos e na diversificação da economia nacional.",
@@ -125,7 +125,7 @@ const timelineData = [
   },
   {
     id: 9,
-    title: "Gael",
+    title: "Acessibilidade",
     title_slong: "Gabinete de Apoio ao Empreendedoris em Angola.",
     date: "Feb 2025",
     content: "O Gabinete de Apoio ao Empreendedor Local “GAEL” é uma iniciativa do INAPEM em parceria com os Governos Provinciais e o Ministério da Administração do Território. A missão do GAEL é fomentar o empreendedorismo local, oferecendo suporte técnico, formaliação, consultoria, assistência Técnica, capacitação e acesso a informações e recursos financeiros disponíveis para o formento do empreendedorismo e boas práticas de Gestão de pequenos negócios.",
@@ -135,11 +135,11 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/gael.png",
     relatedIds: [10, 1],
     status: "pending" as const,
-    energy: 10,
+    energy: 10, 
   },
   {
     id: 10,
-    title: "Planear",
+    title: "Capacitação",
     title_slong: "Projecto Nacional de Aprendizagem Rural em Angola.",
     date: "Feb 2025",
     content: "O Projeto de Aprendizagem Rural é uma iniciativa voltada para o desenvolvimento de competências e capacitação de jovens, agricultores e comunidades rurais em Angola, com o objetivo de promover a educação e a formação técnica que melhorem as práticas agrícolas, fomentem o empreendedorismo rural e aumentem a produtividade do seCtor agrícola.",

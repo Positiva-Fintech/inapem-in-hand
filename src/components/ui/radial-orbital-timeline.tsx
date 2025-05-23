@@ -271,7 +271,7 @@ export default function RadialOrbitalTimeline({
                   ${isExpanded ? "text-white scale-125" : "text-white/70"}
                 `}
                 >
-                  {item.title}
+                  { isMobile ? '' : item.title }
                 </div>
 
                 {/* Expanded card */}

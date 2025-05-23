@@ -22,7 +22,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/recria.jpg",
     relatedIds: [2, 3],
     status: "in-progress" as const,
-    energy: 15,
+    energy: 0,
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/replica.png",
     relatedIds: [3, 4],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/empreetur.jpg",
     relatedIds: [4, 5],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/eco_mpme.jpg",
     relatedIds: [5, 6],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/proapi.jpg",
     relatedIds: [6, 7],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 6,
@@ -94,7 +94,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/conectar.jpg",
     relatedIds: [7, 8],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 7,
@@ -108,7 +108,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/promove.jpg",
     relatedIds: [8, 9],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 8,
@@ -122,7 +122,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/cisu.jpg",
     relatedIds: [9, 10],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 9,
@@ -136,7 +136,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/gael.png",
     relatedIds: [10, 11],
     status: "in-progress" as const,
-    energy: 10, 
+    energy: 0, 
   },
   {
     id: 10,
@@ -150,7 +150,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/planar.png",
     relatedIds: [11, 12],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 11,
@@ -164,7 +164,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/cenagro.png",
     relatedIds: [12, 13],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 12,
@@ -178,7 +178,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/rje.jpeg",
     relatedIds: [13, 14],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 13,
@@ -192,7 +192,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
     relatedIds: [14, 15],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 14,
@@ -206,7 +206,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/incluii.png",
     relatedIds: [15, 16],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 15,
@@ -220,7 +220,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/profecol.jpeg",
     relatedIds: [16, 1],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   {
     id: 16,
@@ -234,7 +234,7 @@ const timelineData = [
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/empreesau.jpg",
     relatedIds: [1, 2],
     status: "in-progress" as const,
-    energy: 10,
+    energy: 0,
   },
   // {
   //   id: 17,
@@ -248,7 +248,7 @@ const timelineData = [
   //   icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
   //   relatedIds: [1, 2],
   //   status: "in-progress" as const,
-  //   energy: 10,
+  //   energy: 0,
   // },
   // {
   //   id: 18,
@@ -262,7 +262,7 @@ const timelineData = [
   //   icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
   //   relatedIds: [1, 2],
   //   status: "in-progress" as const,
-  //   energy: 10,
+  //   energy: 0,
   // },
 ];
 

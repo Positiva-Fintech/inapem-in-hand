@@ -203,7 +203,7 @@ const timelineData = [
     category: "Release",
     link: "https://www.inapem.gov.ao/",
     content2: "Desenvolver as Boas Práticas em projecto estratégico.",
-    icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/inclui.png",
+    icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/incluii.png",
     relatedIds: [15, 16],
     status: "in-progress" as const,
     energy: 10,

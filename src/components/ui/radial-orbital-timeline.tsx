@@ -263,7 +263,7 @@ export default function RadialOrbitalTimeline({
                 </div>
 
                 {/* Node title */}
-                <div
+                {/* <div
                   className={`
                   absolute ${isMobile ? "top-14" : "top-30"} left-1/2 -translate-x-1/2 whitespace-nowrap
                   text-xs font-semibold tracking-wider
@@ -272,7 +272,7 @@ export default function RadialOrbitalTimeline({
                 `}
                 >
                   { isMobile ? '' : item.title }
-                </div>
+                </div> */}
 
                 {/* Expanded card */}
                 {isExpanded && (

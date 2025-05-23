@@ -93,7 +93,7 @@ const timelineData = [
     content2: "O Projeto de Atração de Investimentos para Startups visa criar um ecossistema dinâmico e sustentável de startups em Angola, com foco na inovação e no desenvolvimento de soluções para os desafios locais e globais. Ao conectar empreendedores com investidores e fornecer os recursos necessários para o crescimento, o projeto contribuirá para a diversificação econômica de Angola, o fortalecimento da sua economia digital e a geração de empregos.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/conectar.jpg",
     relatedIds: [7, 8],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -107,7 +107,7 @@ const timelineData = [
     content2: "O projeto visa superar esses desafios por meio de apoio técnico, capacitação e estratégias para garantir a formalização e o bom funcionamento das cooperativas, promovendo sua inclusão no mercado formal e melhorando a qualidade de vida de seus membros",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/promove.jpg",
     relatedIds: [8, 9],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -121,7 +121,7 @@ const timelineData = [
     content2: "O CISU tem como objectivo principal incentivar o empreendedorismo nas universidades de Angola, empreendedores as ferramentas necessárias para transformar suas ideias em empresas viáveis, o centro irá apoiar desde a fase inicial das startups até a sua maturação, oferecendo infraestrutura, mentoria, treinamento e apoio financeiro. A iniciativa visa criar um ecossistema inovador que promova a inovação tecnológica, a geração de empregos e a inclusão social.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/cisu.jpg",
     relatedIds: [9, 10],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -135,7 +135,7 @@ const timelineData = [
     content2: "Ser o principal ponto de apoio e referência para o empreendedor local, reconhecido pela sua capacidade de estimular e apoiar iniciativas empresariais de sucesso, alinhadas às necessidades da comunidade e aos desafios do mercado global. O GAEL é um Gabinete Integrado, visa apoiar o empreendedor em todas as fases do seu negócio, desde a ideia inicial até a expansão da empresa, reúnrá uma variedade de serviços essenciais para o sucesso dos empreendedores em um único local. Isso facilita o acesso a recursos, como:",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/gael.png",
     relatedIds: [10, 11],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10, 
   },
   {
@@ -149,7 +149,7 @@ const timelineData = [
     content2: "Desenvolver as Boas Práticas Agrícolas para uma produção de alimentos de qualidade e com a sustentabilidade dos recursos naturais e protecção do meio ambiente.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/planar.png",
     relatedIds: [11, 12],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -163,7 +163,7 @@ const timelineData = [
     content2: "O CENAGRO actuará como um facilitador de conhecimento, promovendo a integração de tecnologias de ponta com práticas agrícolas eficientes, sustentáveis e que agreguem valor a toda a cadeia produtiva.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/cenagro.png",
     relatedIds: [12, 13],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -176,8 +176,8 @@ const timelineData = [
     link: "https://www.inapem.gov.ao/",
     content2: "Fomentar o ecossistema do empreendedorismo juvenil em Angola através de uma rede nacional de apoio, com foco no desenvolvimento de competências, na criação de oportunidades de negócio e no fortalecimento da autonomia económica da juventude.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/rje.jpeg",
-    relatedIds: [13, 1],
-    status: "pending" as const,
+    relatedIds: [13, 14],
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -190,8 +190,8 @@ const timelineData = [
     link: "https://www.inapem.gov.ao/",
     content2: "Transformar o agronegócio, impulsionando a inovação e o desenvolvimento sustentável, ao oferecer soluções práticas e tecnológicas que melhorem a produtividade, a rentabilidade e a competitividade dos nossos parceiros no sector.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
-    relatedIds: [1, 2],
-    status: "pending" as const,
+    relatedIds: [14, 15],
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -204,8 +204,8 @@ const timelineData = [
     link: "https://www.inapem.gov.ao/",
     content2: "Desenvolver as Boas Práticas em projecto estratégico.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/inclui.png",
-    relatedIds: [1, 2],
-    status: "pending" as const,
+    relatedIds: [15, 16],
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -218,8 +218,8 @@ const timelineData = [
     link: "https://www.inapem.gov.ao/",
     content2: "Fortalecer empresas locais é impulsionar comunidades inteiras rumo a um futuro mais próspero, sustentável e cheio de oportunidades.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/profecol.jpeg",
-    relatedIds: [1, 2],
-    status: "pending" as const,
+    relatedIds: [16, 1],
+    status: "in-progress" as const,
     energy: 10,
   },
   {
@@ -233,7 +233,7 @@ const timelineData = [
     content2: "Apoiar pequenas empresas na saúde é inovar com propósito — é cuidar da economia enquanto se transforma vidas.",
     icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/empreesau.jpg",
     relatedIds: [1, 2],
-    status: "pending" as const,
+    status: "in-progress" as const,
     energy: 10,
   },
   // {
@@ -247,7 +247,7 @@ const timelineData = [
   //   content2: "Desenvolver as Boas Práticas Agrícolas para uma produção de alimentos de qualidade e com a sustentabilidade dos recursos naturais e protecção do meio ambiente.",
   //   icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
   //   relatedIds: [1, 2],
-  //   status: "pending" as const,
+  //   status: "in-progress" as const,
   //   energy: 10,
   // },
   // {
@@ -261,7 +261,7 @@ const timelineData = [
   //   content2: "Desenvolver as Boas Práticas Agrícolas para uma produção de alimentos de qualidade e com a sustentabilidade dos recursos naturais e protecção do meio ambiente.",
   //   icon: "https://posbucket.nyc3.cdn.digitaloceanspaces.com/images/bonase.png",
   //   relatedIds: [1, 2],
-  //   status: "pending" as const,
+  //   status: "in-progress" as const,
   //   energy: 10,
   // },
 ];
